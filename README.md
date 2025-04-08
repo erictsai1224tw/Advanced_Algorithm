@@ -1,4 +1,4 @@
-# Advanced_Algorithm
+# Advanced Algorithm
 Advanced Algorithm Course Material
 
 ## Part 1. Basic
