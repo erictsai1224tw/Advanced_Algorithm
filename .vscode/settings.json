@@ -1,0 +1,13 @@
+{
+  "python.languageServer": "Pylance",
+  "python.analysis.indexing": true,
+  "python.analysis.autoSearchPaths": true,
+  "python.analysis.include": [
+    // "./v2vdet_ultralytics",
+    // "./train",
+    // "./validation",
+    // "./inference"
+  ],
+  "python.formatting.provider": "autopep8",
+  "editor.formatOnSave": true
+}

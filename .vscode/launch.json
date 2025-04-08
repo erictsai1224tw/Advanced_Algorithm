@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Python: Remote Attach",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}" ,
+      "connect": {
+        "host": "localhost",
+        "port": 8787
+      },
+      "pathMappings": [
+        {
+          "localRoot": "${workspaceFolder}",
+          "remoteRoot": "/home/user/erictsai/do_shit/algorithm"
+        }
+      ],
+      "justMyCode": false,
+      "console": "integratedTerminal",
+    }
+  ]
+}
